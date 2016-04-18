@@ -1,0 +1,16 @@
+{
+  "name": "ExampleCfxRnInit",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "clean": "rm -rf build",
+    "build": "npm run clean; coffee -bo build src"
+  },
+  "dependencies": {
+    "cfx.rn": "git+https://github.com/react-cfx/cfx.rn.git",
+    "coffee-script": "^1.10.0",
+    "react": "^0.14.8",
+    "react-native": "^0.23.1"
+  }
+}
